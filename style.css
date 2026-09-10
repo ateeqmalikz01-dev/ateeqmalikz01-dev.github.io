@@ -20,3 +20,6 @@ body{background:radial-gradient(ellipse 900px 700px at 85% 6%,#d39b6f0c,transpar
 
 /* Internship completion certificates and offer letters. */
 .experience-documents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:26px}.experience-document{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}.experience-document img{display:block;width:100%;height:180px;object-fit:contain;padding:12px;background:#e9e9e3}.document-caption{display:flex;flex-direction:column;gap:10px;padding:18px}.document-caption strong{font-size:16px;font-weight:500;line-height:1.5}.document-caption>span{font-size:14px;color:var(--accent)}.experience-document:hover{border-color:var(--accent)}@media(max-width:420px){.experience-documents{grid-template-columns:1fr}}
+
+/* Original credential previews; full documents open separately. */
+.certificate-card .credential-preview{display:block;margin:18px 0 22px;padding:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:#fff}.credential-preview img{display:block;width:100%;height:auto;object-fit:contain}
